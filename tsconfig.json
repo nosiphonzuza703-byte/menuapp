@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "react"
+    ]
+  },
+  "include": [
+    "App.tsx",
+    "screens/**/*.tsx"
+  ],
+  "extends": "expo/tsconfig.base"
+}
